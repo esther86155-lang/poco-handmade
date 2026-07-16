@@ -1,4 +1,4 @@
-import { products } from './data/products.js';
+﻿import { products } from './data/products.js';
 import { instagramFeed } from './data/instagram.js';
 
 // DOM Elements
@@ -24,7 +24,7 @@ function renderProducts() {
         </div>
         <!-- Body info -->
         <div class="p-5 space-y-2">
-          <h3 class="font-serif-cozy font-bold text-shop-secondary group-hover:text-shop-primary transition-colors text-base line-clamp-1">
+          <h3 class="font-serif font-bold text-shop-secondary group-hover:text-shop-primary transition-colors text-base line-clamp-1">
             ${product.name}
           </h3>
           <p class="text-xs text-shop-text/60 line-clamp-2 min-h-[32px] leading-relaxed font-light">
@@ -35,10 +35,9 @@ function renderProducts() {
       <div class="p-5 pt-0">
         <div class="flex items-center justify-between pt-3 border-t border-shop-sub/40">
           <span class="text-shop-primary font-bold text-sm">
-            ${product.price.toLocaleString()}원
-          </span>
+            ${product.price.toLocaleString()}??          </span>
           <span class="text-[10px] text-shop-text/50 flex items-center gap-0.5 font-medium">
-            🐾 상세 보기
+            ?맽 ?곸꽭 蹂닿린
           </span>
         </div>
       </div>
@@ -99,12 +98,11 @@ function openModal(id) {
     <div class="w-full md:w-1/2 p-8 flex flex-col justify-between md:h-[480px] overflow-y-auto bg-shop-bg">
       <div class="space-y-4">
         <div>
-          <h3 class="font-serif-cozy font-bold text-2xl text-shop-secondary mb-1">
+          <h3 class="font-serif font-bold text-2xl text-shop-secondary mb-1">
             ${product.name}
           </h3>
           <span class="text-xl font-bold text-shop-primary">
-            ${product.price.toLocaleString()}원
-          </span>
+            ${product.price.toLocaleString()}??          </span>
         </div>
         <div class="w-8 h-0.5 bg-shop-primary/30 rounded-full"></div>
         <p class="text-sm text-shop-text/80 leading-relaxed font-light">
@@ -116,10 +114,9 @@ function openModal(id) {
       <div class="mt-6 p-4 rounded-2xl bg-shop-sub border border-shop-sub/80 space-y-2">
         <div class="flex items-center gap-1.5">
           <span class="text-xs font-bold text-shop-secondary flex items-center gap-1">
-            🐾 포코의 추천 한 줄 평
-          </span>
+            ?맽 ?ъ퐫??異붿쿇 ??以???          </span>
         </div>
-        <p class="text-xs text-shop-text/90 italic font-serif-cozy leading-relaxed">
+        <p class="text-xs text-shop-text/90 italic font-serif leading-relaxed">
           "${product.comment}"
         </p>
       </div>
@@ -191,13 +188,13 @@ if (contactForm) {
           <polygon points="38,62 50,70 62,62" fill="#8B5A2B" />
         </svg>
         <div class="space-y-2">
-          <h4 class="font-serif-cozy font-bold text-lg text-shop-secondary">편지가 잘 전달되었어!</h4>
+          <h4 class="font-serif font-bold text-lg text-shop-secondary">?몄?媛 ???꾨떖?섏뿀??</h4>
           <p class="text-xs text-shop-text/80 leading-relaxed">
-            안녕, ${name}! 남겨준 문의 내용은 포코가 도토리 가방에 잘 담아서 숲속 우체통에 넣어둘게. 조금만 기다려줘 🐾
+            ?덈뀞, ${name}! ?④꺼以 臾몄쓽 ?댁슜? ?ъ퐫媛 ?꾪넗由?媛諛⑹뿉 ???댁븘???뀁냽 ?곗껜?듭뿉 ?ｌ뼱?섍쾶. 議곌툑留?湲곕떎?ㅼ쨾 ?맽
           </p>
         </div>
         <button id="alert-confirm" class="w-full bg-shop-secondary text-white py-2.5 rounded-xl hover:bg-shop-primary transition-all text-xs font-semibold shadow-md">
-          응, 고마워!
+          ?? 怨좊쭏??
         </button>
       </div>
     `;
@@ -226,3 +223,4 @@ if (contactForm) {
 // Initialize Application
 renderProducts();
 renderInstagram();
+
