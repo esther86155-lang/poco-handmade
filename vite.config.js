@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  // GitHub Pages 레포지토리 이름을 base로 설정
-  base: '/poco-handmade/',
+  // Vercel 배포 환경에서는 '/' 가 루트 (GitHub Pages는 '/poco-handmade/')
+  base: '/',
 })

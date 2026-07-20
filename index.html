@@ -1,210 +1,242 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>?ъ퐫???뚰뭹???맽 | ?곕쑜??媛먯꽦 ?몃뱶硫붿씠???뚰뭹</title>
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="?꾧린 怨곕룎???ъ퐫媛 ?뀁냽 怨듬갑?먯꽌 ??? ??? 留뚮뱶???꾨뒔?섍퀬 洹?ъ슫 ?몃뱶硫붿씠???뚰뭹?듭엯?덈떎." />
+    <title>포코의 소품샵 🧸 | 감성 핸드메이드 라이프</title>
+    <meta name="description" content="아기 곰돌이 포코가 숲속 공방에서 빚어낸 감성 가득한 따뜻한 핸드메이드 소품들" />
   </head>
   <body class="bg-shop-bg text-shop-text min-h-screen">
-    <!-- Header -->
-    <header class="sticky top-0 z-40 bg-shop-bg/90 backdrop-blur-md border-b border-shop-sub">
+    
+    <!-- Header (Glassmorphism) -->
+    <header class="glass-dark sticky top-0 z-40 transition-all duration-300">
       <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#" class="flex items-center gap-2 group">
           <!-- Mini Mascot SVG -->
-          <svg class="w-8 h-8 text-shop-primary transition-transform group-hover:rotate-12" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg class="w-9 h-9 text-shop-primary transition-transform duration-500 group-hover:rotate-12 group-hover:scale-110" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
             <ellipse cx="50" cy="55" rx="35" ry="30" fill="#D2B48C" />
-            <!-- ears -->
             <circle cx="25" cy="30" r="12" fill="#D2B48C" />
             <circle cx="25" cy="30" r="6" fill="#F3D1C9" />
             <circle cx="75" cy="30" r="12" fill="#D2B48C" />
             <circle cx="75" cy="30" r="6" fill="#F3D1C9" />
-            <!-- eyes -->
             <circle cx="38" cy="50" r="3.5" fill="#4A3E3D" />
             <circle cx="62" cy="50" r="3.5" fill="#4A3E3D" />
-            <!-- snout -->
             <ellipse cx="50" cy="62" rx="12" ry="8" fill="#F5EFEB" />
             <path d="M50 58 L50 63 M46 64 Q50 67 54 64" stroke="#4A3E3D" stroke-width="2.5" stroke-linecap="round" fill="none" />
-            <!-- cheeks -->
             <circle cx="30" cy="56" r="4" fill="#F3D1C9" opacity="0.8" />
             <circle cx="70" cy="56" r="4" fill="#F3D1C9" opacity="0.8" />
           </svg>
-          <span class="font-serif font-bold text-xl tracking-wide text-shop-secondary">?ъ퐫???뚰뭹??/span>
+          <span class="font-serif font-bold text-xl tracking-wide text-gradient">포코의 소품샵</span>
         </a>
         <nav class="hidden md:flex gap-8 text-sm font-medium">
-          <a href="#about" class="hover:text-shop-primary transition-colors">?ъ퐫 ?댁빞湲?/a>
-          <a href="#gallery" class="hover:text-shop-primary transition-colors">?뚰뭹 媛ㅻ윭由?/a>
-          <a href="#instagram" class="hover:text-shop-primary transition-colors">?곗씪由??몄뒪?</a>
-          <a href="#contact" class="hover:text-shop-primary transition-colors">援щℓ 諛?臾몄쓽</a>
+          <a href="#about" class="hover:text-shop-primary transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-shop-primary after:transition-all hover:after:w-full">포코 이야기</a>
+          <a href="#gallery" class="hover:text-shop-primary transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-shop-primary after:transition-all hover:after:w-full">소품 갤러리</a>
+          <a href="#instagram" class="hover:text-shop-primary transition-colors relative after:absolute after:-bottom-1 after:left-0 after:w-0 after:h-0.5 after:bg-shop-primary after:transition-all hover:after:w-full">인스타그램</a>
         </nav>
-        <a href="#contact" class="bg-shop-primary text-white text-xs px-4 py-2.5 rounded-full hover:bg-shop-secondary transition-all font-medium shadow-sm">
-          ?ъ퐫? 1:1 ?≫븯湲??맽
+        <a href="#contact" class="bg-shop-primary text-white text-xs px-5 py-2.5 rounded-full hover:bg-shop-secondary hover:shadow-soft transition-all font-semibold flex items-center gap-1.5 transform hover:-translate-y-0.5">
+          포코에게 말 걸기 🧸
         </a>
       </div>
     </header>
 
-    <!-- Main Content -->
     <main>
-      <!-- Hero / About Section -->
-      <section id="about" class="py-16 md:py-24 bg-gradient-to-b from-shop-bg via-shop-bg to-shop-sub">
-        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-          <!-- Left: Story text -->
-          <div class="fade-in space-y-6">
-            <span class="text-shop-primary font-medium tracking-widest text-xs uppercase bg-shop-rose px-3 py-1 rounded-full text-shop-secondary">ABOUT POCO</span>
-            <h1 class="font-serif text-3xl md:text-5xl font-bold leading-tight text-shop-secondary">
-              ?뀁냽 ?꾧린 怨곕룎???ъ퐫??br />
-              ?먮━怨??곕쑜??諛붾뒓吏??댁빞湲?            </h1>
-            <p class="text-shop-text/80 leading-relaxed font-light">
-              ?꾪넗由??뀁냽 源딆? 怨? 議곌렇留덊븳 ?듬굹臾댁쭛 怨듬갑?먮뒗 諛붾뒓吏덇낵 ?꾩옄湲?留뚮뱾湲곕? 臾댁쿃?대굹 醫뗭븘?섎뒗 ?꾧린 怨곕룎??'?ъ퐫'媛 ?닿퀬 ?덉뼱??<br /><br />
-              議곌툑? ?쒗댋吏留? ?뀁냽 移쒓뎄?ㅼ뿉寃?以??좊Ъ??留뚮뱾 ?뚯쿂????留덉쓬怨??뺤꽦???ㅽ빐 ??? ??? 鍮싳뼱?낅땲?? ?ъ퐫媛 援ъ썙???꾩옄湲?癒멸렇?붽낵 ?뺤꽦 ?닿릿 ?꾨뒔???⑤툕由??뚰뭹?ㅼ씠 ?щ윭遺꾩쓽 ?쇱긽???묒? ?④린媛 ?섍린瑜?諛붾엻?덈떎.
+      <!-- Premium Hero Section -->
+      <section id="about" class="relative pt-24 pb-32 overflow-hidden flex items-center min-h-[90vh]">
+        <!-- Background decorative elements -->
+        <div class="absolute top-20 -left-20 w-96 h-96 bg-shop-rose/30 rounded-full blur-[80px] -z-10 animate-pulse-slow"></div>
+        <div class="absolute bottom-10 right-10 w-80 h-80 bg-shop-gold/20 rounded-full blur-[60px] -z-10 animate-pulse-slow" style="animation-delay: 1.5s;"></div>
+        
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+          <!-- Text Content -->
+          <div class="space-y-8 relative z-10">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass border-shop-primary/20 text-shop-primary font-bold tracking-widest text-xs uppercase animate-fade-in-up shadow-sm">
+              <span class="w-2 h-2 rounded-full bg-shop-primary animate-ping"></span>
+              Welcome to Poco Forest
+            </div>
+            <h1 class="font-serif text-4xl md:text-6xl font-bold leading-tight text-shop-secondary animate-fade-in-up" style="animation-delay: 150ms;">
+              숲속 아기 곰돌이 포코의<br />
+              <span class="text-gradient">따뜻한 바느질 이야기</span>
+            </h1>
+            <p class="text-shop-text/80 text-lg leading-relaxed font-light animate-fade-in-up" style="animation-delay: 300ms;">
+              도토리 숲속 깊은 곳, 조그마한 통나무집 공방.<br/>
+              조금 서툴러도 숲속 친구들을 향한 마음을 담아 한 땀 한 땀 빚어낸<br/>
+              포코의 다정한 소품들이 당신의 일상에 작은 온기가 되기를 바랍니다.
             </p>
-            <div class="flex gap-4 pt-2">
-              <a href="#gallery" class="bg-shop-secondary text-white px-6 py-3 rounded-xl hover:bg-shop-primary hover:-translate-y-0.5 transition-all text-sm font-medium shadow-md">?뚰뭹 援ш꼍?섍린</a>
-              <a href="#contact" class="border border-shop-secondary/30 text-shop-secondary px-6 py-3 rounded-xl hover:bg-shop-sub transition-all text-sm font-medium">臾몄쓽 ?④린湲?/a>
+            <div class="flex flex-wrap gap-4 pt-4 animate-fade-in-up" style="animation-delay: 450ms;">
+              <a href="#gallery" class="bg-shop-secondary text-white px-8 py-4 rounded-2xl hover:bg-shop-primary hover:shadow-soft hover:-translate-y-1 transition-all text-sm font-semibold flex items-center gap-2">
+                소품 구경하기
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+              </a>
+              <a href="#contact" class="glass text-shop-secondary px-8 py-4 rounded-2xl hover:bg-shop-sub transition-all text-sm font-semibold hover:-translate-y-1">
+                작업 문의하기
+              </a>
             </div>
           </div>
-          <!-- Right: Hero Mascot SVG Illustration -->
-          <div class="flex justify-center items-center relative">
-            <!-- Background circle glow -->
-            <div class="absolute w-72 h-72 bg-shop-rose/40 rounded-full blur-3xl -z-10"></div>
-            
-            <!-- Large Mascot Character SVG -->
-            <svg class="w-80 h-80 max-w-full drop-shadow-xl hover:scale-105 transition-transform duration-500 cursor-pointer" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <!-- Body -->
-              <circle cx="100" cy="130" r="45" fill="#D2B48C" />
-              <circle cx="100" cy="130" r="38" fill="#F5EFEB" opacity="0.3" />
-              <!-- Feet -->
-              <circle cx="70" cy="170" r="14" fill="#8B5A2B" />
-              <circle cx="130" cy="170" r="14" fill="#8B5A2B" />
-              <!-- Arms holding a heart -->
-              <circle cx="65" cy="125" r="12" fill="#D2B48C" />
-              <circle cx="135" cy="125" r="12" fill="#D2B48C" />
+          
+          <!-- Hero Illustration (Floating) -->
+          <div class="flex justify-center items-center relative animate-fade-in-up" style="animation-delay: 300ms;">
+            <div class="relative w-full max-w-[400px] aspect-square animate-float">
+              <!-- Glowing backdrop for mascot -->
+              <div class="absolute inset-4 bg-white/40 rounded-full blur-2xl z-0"></div>
               
-              <!-- Red heart (Poco holding it) -->
-              <path d="M100 135 C95 125, 80 125, 80 137 C80 148, 100 157, 100 157 C100 157, 120 148, 120 137 C120 125, 105 125, 100 135 Z" fill="#C88A75" />
-              <circle cx="95" cy="134" r="1.5" fill="white" />
-
-              <!-- Face -->
-              <circle cx="100" cy="85" r="42" fill="#D2B48C" />
-              <!-- Ears -->
-              <circle cx="65" cy="50" r="16" fill="#8B5A2B" />
-              <circle cx="65" cy="50" r="9" fill="#F3D1C9" />
-              <circle cx="135" cy="50" r="16" fill="#8B5A2B" />
-              <circle cx="135" cy="50" r="9" fill="#F3D1C9" />
-              <!-- Eyes with cute highlight -->
-              <circle cx="85" cy="80" r="4.5" fill="#4A3E3D" />
-              <circle cx="84" cy="78" r="1.5" fill="white" />
-              <circle cx="115" cy="80" r="4.5" fill="#4A3E3D" />
-              <circle cx="114" cy="78" r="1.5" fill="white" />
-              <!-- Blushing cheeks -->
-              <circle cx="75" cy="90" r="6" fill="#F3D1C9" opacity="0.8" />
-              <circle cx="125" cy="90" r="6" fill="#F3D1C9" opacity="0.8" />
-              <!-- Snout -->
-              <ellipse cx="100" cy="94" rx="16" ry="11" fill="#FDFBF7" />
-              <!-- Nose -->
-              <ellipse cx="100" cy="89" rx="5" ry="3.5" fill="#4A3E3D" />
-              <!-- Smile Mouth -->
-              <path d="M100 89 L100 95 M94 96 Q100 100 106 96" stroke="#4A3E3D" stroke-width="2" stroke-linecap="round" fill="none" />
-            </svg>
-          </div>
-        </div>
-      </section>
-
-      <!-- Product Gallery Section -->
-      <section id="gallery" class="py-20 max-w-6xl mx-auto px-6">
-        <div class="text-center max-w-lg mx-auto mb-16 space-y-3">
-          <span class="text-shop-primary font-medium tracking-wider text-xs">Poco's Collection</span>
-          <h2 class="font-serif text-3xl font-bold text-shop-secondary">?ъ퐫???곕쑜???뚰뭹 媛ㅻ윭由?/h2>
-          <div class="w-12 h-1 bg-shop-primary/40 mx-auto rounded-full"></div>
-          <p class="text-shop-text/70 text-sm leading-relaxed">
-            ?ъ퐫媛 ?뀁냽 移쒓뎄?ㅼ쓣 ?꾪빐 留뚮뱺 ?곕쑜???몃뱶硫붿씠???뚰뭹?ㅼ엯?덈떎. <br />移대뱶瑜??대┃?섏떆硫??곸꽭 ?ㅻ챸怨??④퍡 ?ъ퐫????以??됱쓣 ?ㅼ쓣 ???덉뼱??
-          </p>
-        </div>
-        <!-- Grid list of products -->
-        <div id="product-grid" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          <!-- Dynamic rendering by main.js -->
-        </div>
-      </section>
-
-      <!-- Everyday Instagram Section -->
-      <section id="instagram" class="py-20 bg-shop-sub">
-        <div class="max-w-6xl mx-auto px-6">
-          <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
-            <div class="space-y-2">
-              <span class="text-shop-primary font-medium tracking-wider text-xs uppercase">Everyday Instagram</span>
-              <h2 class="font-serif text-3xl font-bold text-shop-secondary">@poco_workshop ?쇰뱶</h2>
-              <p class="text-shop-text/70 text-sm">?ъ퐫???뚯냼???쇱긽怨?怨듬갑 ?쒖옉 怨쇱젙??留ㅼ씪 湲곕줉?댁슂.</p>
+              <svg class="w-full h-full relative z-10 drop-shadow-2xl" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Body -->
+                <circle cx="100" cy="130" r="45" fill="#D2B48C" />
+                <circle cx="100" cy="130" r="38" fill="#F5EFEB" opacity="0.3" />
+                <!-- Feet -->
+                <circle cx="70" cy="170" r="14" fill="#8B5A2B" />
+                <circle cx="130" cy="170" r="14" fill="#8B5A2B" />
+                <!-- Arms holding a heart -->
+                <circle cx="65" cy="125" r="12" fill="#D2B48C" />
+                <circle cx="135" cy="125" r="12" fill="#D2B48C" />
+                <!-- Red heart -->
+                <path d="M100 135 C95 125, 80 125, 80 137 C80 148, 100 157, 100 157 C100 157, 120 148, 120 137 C120 125, 105 125, 100 135 Z" fill="#C88A75" />
+                <circle cx="95" cy="134" r="1.5" fill="white" />
+                <!-- Face -->
+                <circle cx="100" cy="85" r="42" fill="#D2B48C" />
+                <!-- Ears -->
+                <circle cx="65" cy="50" r="16" fill="#8B5A2B" />
+                <circle cx="65" cy="50" r="9" fill="#F3D1C9" />
+                <circle cx="135" cy="50" r="16" fill="#8B5A2B" />
+                <circle cx="135" cy="50" r="9" fill="#F3D1C9" />
+                <!-- Eyes with cute highlight -->
+                <circle cx="85" cy="80" r="4.5" fill="#4A3E3D" />
+                <circle cx="84" cy="78" r="1.5" fill="white" />
+                <circle cx="115" cy="80" r="4.5" fill="#4A3E3D" />
+                <circle cx="114" cy="78" r="1.5" fill="white" />
+                <!-- Blushing cheeks -->
+                <circle cx="75" cy="90" r="6" fill="#F3D1C9" opacity="0.8" />
+                <circle cx="125" cy="90" r="6" fill="#F3D1C9" opacity="0.8" />
+                <!-- Snout -->
+                <ellipse cx="100" cy="94" rx="16" ry="11" fill="#FDFBF7" />
+                <ellipse cx="100" cy="89" rx="5" ry="3.5" fill="#4A3E3D" />
+                <path d="M100 89 L100 95 M94 96 Q100 100 106 96" stroke="#4A3E3D" stroke-width="2" stroke-linecap="round" fill="none" />
+              </svg>
             </div>
-            <a href="https://www.instagram.com/instagram/" target="_blank" class="mt-4 md:mt-0 text-sm font-semibold text-shop-primary hover:text-shop-secondary flex items-center gap-1 group transition-colors">
-              ?몄뒪?洹몃옩 ?붾줈?고븯湲??맽
-              <span class="inline-block transition-transform group-hover:translate-x-1">??/span>
-            </a>
           </div>
-          <!-- Instagram grid (6 cards) -->
-          <div id="instagram-grid" class="grid grid-cols-2 md:grid-cols-3 gap-6">
+        </div>
+      </section>
+
+      <!-- Dynamic Product Gallery Section -->
+      <section id="gallery" class="py-24 bg-shop-sub/20">
+        <div class="max-w-6xl mx-auto px-6">
+          <div class="text-center max-w-2xl mx-auto mb-16 space-y-4 reveal">
+            <span class="inline-block px-3 py-1 rounded-full glass text-shop-primary font-bold text-xs uppercase shadow-sm">Collection</span>
+            <h2 class="font-serif text-3xl md:text-4xl font-bold text-shop-secondary">포코의 숲속 갤러리</h2>
+            <p class="text-shop-text/70 text-sm md:text-base leading-relaxed font-light">
+              마음을 다해 만든 다정한 소품들을 만나보세요.<br/>각 카드를 누르면 숲속 향기가 물씬 풍기는 포코의 한 줄 평을 들을 수 있어요.
+            </p>
+          </div>
+
+          <!-- Category Filters -->
+          <div class="flex flex-wrap justify-center gap-3 mb-12 reveal reveal-delay-1" id="category-filters">
+            <button class="filter-btn active px-6 py-2.5 rounded-full text-sm font-semibold transition-all duration-300 bg-shop-secondary text-white shadow-soft" data-filter="all">전체 보기</button>
+            <button class="filter-btn px-6 py-2.5 rounded-full text-sm font-semibold transition-all duration-300 bg-white border border-shop-sub/80 text-shop-text/70 hover:border-shop-primary hover:text-shop-primary" data-filter="인형/패브릭">인형/패브릭</button>
+            <button class="filter-btn px-6 py-2.5 rounded-full text-sm font-semibold transition-all duration-300 bg-white border border-shop-sub/80 text-shop-text/70 hover:border-shop-primary hover:text-shop-primary" data-filter="주방/식기">주방/식기</button>
+            <button class="filter-btn px-6 py-2.5 rounded-full text-sm font-semibold transition-all duration-300 bg-white border border-shop-sub/80 text-shop-text/70 hover:border-shop-primary hover:text-shop-primary" data-filter="향료/캔들">향료/캔들</button>
+            <button class="filter-btn px-6 py-2.5 rounded-full text-sm font-semibold transition-all duration-300 bg-white border border-shop-sub/80 text-shop-text/70 hover:border-shop-primary hover:text-shop-primary" data-filter="기타">기타 소품</button>
+          </div>
+
+          <!-- Grid list of products -->
+          <div id="product-grid" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 reveal reveal-delay-2">
             <!-- Dynamic rendering by main.js -->
           </div>
         </div>
       </section>
 
-      <!-- Contact / Footer Section -->
-      <section id="contact" class="py-20 max-w-4xl mx-auto px-6">
-        <div class="bg-white rounded-3xl p-8 md:p-12 border border-shop-sub shadow-sm flex flex-col md:flex-row gap-12 items-center">
+      <!-- Infinite Marquee Instagram Section -->
+      <section id="instagram" class="py-24 overflow-hidden relative">
+        <div class="absolute top-0 left-0 w-32 h-full bg-gradient-to-r from-shop-bg to-transparent z-10 pointer-events-none hidden md:block"></div>
+        <div class="absolute top-0 right-0 w-32 h-full bg-gradient-to-l from-shop-bg to-transparent z-10 pointer-events-none hidden md:block"></div>
+        
+        <div class="max-w-6xl mx-auto px-6 mb-12 flex flex-col md:flex-row md:items-end justify-between reveal">
+          <div class="space-y-2">
+            <span class="text-shop-primary font-bold tracking-wider text-xs uppercase flex items-center gap-2">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              Everyday Instagram
+            </span>
+            <h2 class="font-serif text-3xl md:text-4xl font-bold text-shop-secondary">@poco_workshop</h2>
+            <p class="text-shop-text/70 text-sm font-light">작은 오두막 공방에서의 소소하고 부지런한 기록들</p>
+          </div>
+          <a href="https://www.instagram.com/instagram/" target="_blank" class="mt-4 md:mt-0 glass px-6 py-3 rounded-xl text-sm font-bold text-shop-primary hover:text-white hover:bg-shop-primary flex items-center gap-2 group transition-all shadow-sm hover:shadow-soft">
+            포코 팔로우하기
+            <span class="inline-block transition-transform group-hover:translate-x-1">→</span>
+          </a>
+        </div>
+
+        <!-- Infinite Marquee Scroll -->
+        <div class="marquee-wrapper animate-marquee hover:animation-paused reveal reveal-delay-1" id="instagram-marquee">
+          <!-- Dynamically populated by main.js (duplicated for infinite loop) -->
+        </div>
+      </section>
+
+      <!-- Glassmorphism Contact Section -->
+      <section id="contact" class="py-24 max-w-5xl mx-auto px-6 reveal">
+        <div class="glass-dark rounded-[2.5rem] p-8 md:p-14 border border-shop-sub/40 flex flex-col md:flex-row gap-16 items-center relative overflow-hidden">
+          <!-- BG Decoration -->
+          <div class="absolute -top-32 -right-32 w-64 h-64 bg-shop-gold/30 rounded-full blur-[60px] pointer-events-none"></div>
+
           <!-- Form Left -->
-          <div class="w-full md:w-1/2 space-y-6">
-            <div class="space-y-2">
-              <h2 class="font-serif text-2xl font-bold text-shop-secondary">?ъ퐫?먭쾶 臾몄쓽?섍린 ?맽</h2>
-              <p class="text-sm text-shop-text/70">?먰븯?쒕뒗 ?뚰뭹 二쇰Ц ?쒖옉?대굹 沅곴툑???먯쓣 ?ъ퐫?먭쾶 吏곸젒 臾쇱뼱蹂댁꽭??</p>
+          <div class="w-full md:w-1/2 space-y-8 relative z-10">
+            <div class="space-y-3">
+              <span class="inline-block px-3 py-1 bg-white/60 text-shop-primary font-bold text-xs uppercase rounded-full border border-shop-primary/10">Contact</span>
+              <h2 class="font-serif text-3xl font-bold text-shop-secondary">포코 우체통 💌</h2>
+              <p class="text-sm text-shop-text/70 leading-relaxed">
+                주문제작 요청이나 협업 제안 등 궁금한 점을 남겨주시면,<br/>포코가 도토리 편지지로 정성껏 답장을 보낼게요.
+              </p>
             </div>
-            <form id="contact-form" class="space-y-4">
-              <div>
-                <label for="name" class="block text-xs font-semibold text-shop-text/80 mb-1">蹂대궡?쒕뒗 遺??대쫫</label>
-                <input type="text" id="name" required class="w-full text-sm bg-shop-bg border border-shop-sub/80 rounded-xl px-4 py-3 focus:outline-none focus:border-shop-primary transition-colors text-shop-text" placeholder="?띻만?? />
+            
+            <form id="contact-form" class="space-y-5">
+              <div class="relative group">
+                <input type="text" id="name" required class="w-full text-sm bg-white/50 backdrop-blur-sm border border-shop-sub rounded-2xl px-5 py-4 focus:outline-none focus:border-shop-primary focus:bg-white transition-all text-shop-text placeholder-shop-text/40 shadow-inner-soft" placeholder="보내시는 분 성함" />
               </div>
-              <div>
-                <label for="message" class="block text-xs font-semibold text-shop-text/80 mb-1">臾몄쓽 ?댁슜</label>
-                <textarea id="message" required rows="4" class="w-full text-sm bg-shop-bg border border-shop-sub/80 rounded-xl px-4 py-3 focus:outline-none focus:border-shop-primary transition-colors text-shop-text resize-none" placeholder="?ъ퐫??癒멸렇而듭쓣 二쇰Ц ?쒖옉?섍퀬 ?띠뼱??"></textarea>
+              <div class="relative group">
+                <textarea id="message" required rows="4" class="w-full text-sm bg-white/50 backdrop-blur-sm border border-shop-sub rounded-2xl px-5 py-4 focus:outline-none focus:border-shop-primary focus:bg-white transition-all text-shop-text placeholder-shop-text/40 resize-none shadow-inner-soft" placeholder="포코야 머그컵을 주문하고 싶어!"></textarea>
               </div>
-              <div>
-                <label for="poco-letter" class="block text-xs font-semibold text-shop-text/80 mb-1">?ъ퐫?먭쾶 ?④만 ??留덈뵒 (?좏깮)</label>
-                <input type="text" id="poco-letter" class="w-full text-sm bg-shop-bg border border-shop-sub/80 rounded-xl px-4 py-3 focus:outline-none focus:border-shop-primary transition-colors text-shop-text" placeholder="?ъ퐫???묒썝??" />
+              <div class="relative group">
+                <input type="text" id="poco-letter" class="w-full text-sm bg-white/50 backdrop-blur-sm border border-shop-sub rounded-2xl px-5 py-4 focus:outline-none focus:border-shop-primary focus:bg-white transition-all text-shop-text placeholder-shop-text/40 shadow-inner-soft" placeholder="포코에게 전하고 싶은 한마디 (선택)" />
               </div>
-              <button type="submit" class="w-full bg-shop-secondary text-white py-3 rounded-xl hover:bg-shop-primary hover:-translate-y-0.5 transition-all text-sm font-semibold shadow-md">
-                ?몄? ?꾩넚?섍린 ?뭽
+              <button type="submit" class="w-full bg-shop-secondary text-white py-4 rounded-2xl hover:bg-shop-primary hover:-translate-y-1 transition-all text-base font-bold shadow-soft flex justify-center items-center gap-2 group">
+                편지 날려보내기
+                <svg class="w-5 h-5 transform transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
               </button>
             </form>
           </div>
+          
           <!-- Info Right -->
-          <div class="w-full md:w-1/2 flex flex-col items-center text-center space-y-6 border-t md:border-t-0 md:border-l border-shop-sub/60 pt-8 md:pt-0 md:pl-12">
+          <div class="w-full md:w-1/2 flex flex-col items-center justify-center text-center space-y-8 md:pl-10 relative z-10">
             <!-- Paws Guide Mascot SVG -->
-            <svg class="w-36 h-36 drop-shadow-md" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <ellipse cx="50" cy="55" rx="25" ry="22" fill="#D2B48C" />
-              <circle cx="32" cy="38" r="10" fill="#8B5A2B" />
-              <circle cx="68" cy="38" r="10" fill="#8B5A2B" />
-              <circle cx="32" cy="38" r="5" fill="#F3D1C9" />
-              <circle cx="68" cy="38" r="5" fill="#F3D1C9" />
-              <circle cx="43" cy="50" r="2.5" fill="#4A3E3D" />
-              <circle cx="57" cy="50" r="2.5" fill="#4A3E3D" />
-              <ellipse cx="50" cy="58" rx="8" ry="6" fill="#F5EFEB" />
-              <path d="M50 56 L50 59 M47 60 Q50 62 53 60" stroke="#4A3E3D" stroke-width="1.5" stroke-linecap="round" fill="none" />
-              <!-- Letter envelope in mouth -->
-              <rect x="42" y="60" width="16" height="10" rx="1" fill="#C88A75" />
-              <path d="M42 60 L50 65 L58 60" stroke="white" stroke-width="1" fill="none" />
-            </svg>
-            <div class="space-y-2">
-              <h3 class="font-serif text-lg font-bold text-shop-secondary">移댁뭅?ㅽ넚?쇰줈 ?ㅼ떆媛?臾몄쓽?섍린</h3>
-              <p class="text-xs text-shop-text/70 leading-relaxed">
-                媛??鍮좊Ⅸ ?듬????먰븯?좊떎硫?1:1 移댁뭅?ㅽ넚 ?ㅽ뵂梨꾪똿諛⑹쓣 ?댁슜??蹂댁꽭?? ?ъ퐫媛 ?곕쑜??而ㅽ뵾 ???붽낵 ?④퍡 ?듬???以鍮꾪븷寃뚯슂!
+            <div class="relative animate-float-slow">
+              <div class="absolute inset-0 bg-shop-rose/20 rounded-full blur-xl scale-150 -z-10"></div>
+              <svg class="w-48 h-48 drop-shadow-xl" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <ellipse cx="50" cy="55" rx="25" ry="22" fill="#D2B48C" />
+                <circle cx="32" cy="38" r="10" fill="#8B5A2B" />
+                <circle cx="68" cy="38" r="10" fill="#8B5A2B" />
+                <circle cx="32" cy="38" r="5" fill="#F3D1C9" />
+                <circle cx="68" cy="38" r="5" fill="#F3D1C9" />
+                <circle cx="43" cy="50" r="2.5" fill="#4A3E3D" />
+                <circle cx="57" cy="50" r="2.5" fill="#4A3E3D" />
+                <ellipse cx="50" cy="58" rx="8" ry="6" fill="#F5EFEB" />
+                <path d="M50 56 L50 59 M47 60 Q50 62 53 60" stroke="#4A3E3D" stroke-width="1.5" stroke-linecap="round" fill="none" />
+                <!-- Letter envelope in mouth -->
+                <rect x="40" y="60" width="20" height="12" rx="1.5" fill="#FDFBF7" />
+                <path d="M40 60 L50 67 L60 60" stroke="#C88A75" stroke-width="1.5" fill="none" />
+                <path d="M48 64 L52 64" stroke="#C88A75" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </div>
+            
+            <div class="space-y-3">
+              <h3 class="font-serif text-xl font-bold text-shop-secondary">카카오톡 실시간 다이렉트</h3>
+              <p class="text-xs text-shop-text/70 leading-relaxed max-w-xs mx-auto">
+                가장 빠른 답변이 필요하시다면 1:1 오픈채팅을 열어주세요.<br/>포코가 작업 중이 아닐 때는 바로바로 답변해 드려요!
               </p>
             </div>
-            <a href="https://open.kakao.com/o/sExample" target="_blank" class="w-full bg-[#FEE500] text-[#191919] py-3 rounded-xl hover:bg-[#FADA0A] hover:-translate-y-0.5 transition-all text-sm font-bold shadow-md flex items-center justify-center gap-2">
-              <!-- Kakao Speech bubble icon -->
+            <a href="https://open.kakao.com/o/sExample" target="_blank" class="w-full max-w-[280px] bg-[#FEE500] text-[#191919] py-3.5 rounded-2xl hover:bg-[#FADA0A] hover:-translate-y-1 transition-all text-sm font-bold shadow-soft flex items-center justify-center gap-2">
               <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path d="M12 3c-4.97 0-9 3.185-9 7.115 0 2.53 1.662 4.757 4.172 5.99L6.15 20.32c-.12.44.15.89.59 1.01.14.04.28.04.42 0l4.73-3.13c.36.05.73.08 1.11.08 4.97 0 9-3.185 9-7.115S16.97 3 12 3z"/>
               </svg>
-              ?ъ퐫? 1:1 移댁뭅?ㅽ넚 ??뷀븯湲??맽
+              포코와 1:1 대화 시작하기
             </a>
           </div>
         </div>
@@ -212,20 +244,27 @@
     </main>
 
     <!-- Footer Copyright -->
-    <footer class="bg-shop-secondary text-shop-sub py-8 text-center text-xs font-light tracking-wider border-t border-shop-secondary/80">
-      <div class="max-w-6xl mx-auto px-6 space-y-2">
-        <p class="font-serif font-medium text-sm text-white">?ъ퐫???뚰뭹???맽</p>
-        <p>짤 2026 Poco Workshop. All rights reserved.</p>
-        <p class="opacity-60 text-[10px]">紐⑤뱺 ?뚰뭹? ?붿옄??移댄뵾瑜?湲덉??섎ŉ ??묎텒 蹂댄샇瑜?諛쏆뒿?덈떎.</p>
+    <footer class="bg-white text-shop-sub py-10 text-center text-xs font-light tracking-wider border-t border-shop-sub">
+      <div class="max-w-6xl mx-auto px-6 space-y-4">
+        <div class="flex justify-center mb-4">
+          <svg class="w-8 h-8 text-shop-secondary opacity-50" viewBox="0 0 100 100" fill="currentColor">
+            <ellipse cx="50" cy="55" rx="35" ry="30" />
+            <circle cx="25" cy="30" r="12" />
+            <circle cx="75" cy="30" r="12" />
+          </svg>
+        </div>
+        <p class="font-serif font-bold text-sm text-shop-text/80">포코의 소품샵 🧸</p>
+        <p class="text-shop-text/60">© 2026 Poco Workshop. Crafted with love.</p>
+        <p class="text-shop-text/40 text-[10px]">모든 디자인과 소품의 저작권은 포코 워크샵에 있으며 무단 도용을 금합니다.</p>
       </div>
     </footer>
 
-    <!-- Detail Modal -->
-    <div id="detail-modal" class="fixed inset-0 z-50 flex items-center justify-center bg-black/60 opacity-0 pointer-events-none transition-opacity duration-300 backdrop-blur-sm p-4">
-      <div class="bg-shop-bg w-full max-w-2xl rounded-3xl shadow-2xl overflow-hidden border border-shop-sub/40 transform scale-95 transition-transform duration-300 relative max-h-[90vh] flex flex-col md:flex-row">
+    <!-- Glassmorphism Detail Modal -->
+    <div id="detail-modal" class="fixed inset-0 z-50 flex items-center justify-center bg-shop-text/40 opacity-0 pointer-events-none transition-all duration-500 backdrop-blur-md p-4">
+      <div class="bg-white/90 backdrop-blur-2xl w-full max-w-4xl rounded-[2rem] shadow-2xl overflow-hidden border border-white/50 transform scale-95 translate-y-4 transition-all duration-500 relative max-h-[90vh] flex flex-col md:flex-row">
         <!-- Close Button -->
-        <button id="modal-close" class="absolute top-4 right-4 z-10 w-9 h-9 bg-black/35 hover:bg-black/60 text-white rounded-full flex items-center justify-center transition-colors">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <button id="modal-close" class="absolute top-5 right-5 z-20 w-10 h-10 bg-white hover:bg-shop-sub text-shop-text rounded-full flex items-center justify-center transition-all shadow-sm hover:rotate-90">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
           </svg>
         </button>
@@ -240,4 +279,3 @@
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
-
