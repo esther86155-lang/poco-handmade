@@ -10,12 +10,12 @@ export const products = [
   },
   {
     id: 2,
-    name: "루디네 도자기 머그잔",
-    price: 18000,
-    category: "주방/식기",
-    image: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600&auto=format&fit=crop&q=60",
-    description: "물레를 돌려 직접 빚어낸 따뜻한 흙빛 머그잔입니다. 컵 한쪽에 귀여운 루디 얼굴이 조각되어 있으며, 따뜻한 우유나 드립 커피를 마시기에 넉넉한 350ml 용량으로 제작되었습니다.",
-    comment: "🐾 내가 매일 아침 따뜻한 핫초코를 마실 때 쓰는 컵이야! 입술에 닿는 느낌이 참 보드라워."
+    name: "루디 조리개 주머니",
+    price: 14000,
+    category: "패브릭/소품",
+    image: "./drawstring_pouch.jpg",
+    description: "귀여운 꽃무늬와 새 일러스트가 프린트된 원단으로 정성스레 만든 핸드메이드 조리개 주머니입니다. 양옆의 끈을 당겨 간편하게 여닫을 수 있으며, 화장품이나 필기구 등 다양한 소품을 깔끔하게 수납하기 좋습니다.",
+    comment: "🐾 조리개 끈을 슥 당기면 내 소중한 소품들이 안전하게 담겨. 가방 속을 귀엽고 깔끔하게 정리해 보길 바라!"
   },
   {
     id: 3,
