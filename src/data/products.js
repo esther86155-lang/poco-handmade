@@ -38,7 +38,7 @@ export const products = [
   {
     id: 5,
     name: "핸드메이드 나비 가방",
-    price: 14000,
+    price: 35000,
     category: "패브릭/가방",
     image: "./butterfly_bag.png",
     description: "화사한 봄을 담은 유니크한 패턴의 핸드메이드 나비 가방입니다. 가볍고 탄탄한 코튼 린넨 소재에 정성 가득한 수작업 애플리케이션으로 포인트를 더해 데일리 토트로 어디에나 잘 어울립니다.",
