@@ -4,7 +4,7 @@ export const products = [
     name: "포코 아기곰 뜨개 손인형",
     price: 24000,
     category: "인형/패브릭",
-    image: "https://images.unsplash.com/photo-1559251606-c623743a6d76?w=600&auto=format&fit=crop&q=60",
+    image: "./pouch.jpg",
     description: "포코 마스코트를 모티브로 한 오가닉 뜨개 손인형입니다. 보들보들한 100% 면사로 한 땀 한 땀 정성을 담아 떠서 아이들이 만지기에도 안전하고, 침실 머리맡 인테리어 소품으로도 훌륭합니다.",
     comment: "🐾 내 모습을 똑 닮아 더 정이 가는 인형이야! 포근하게 꼭 안아주면 기분이 좋아질 거야."
   },
