@@ -22,7 +22,7 @@ export const products = [
     name: "루디 꽃무늬 카드지갑",
     price: 13000,
     category: "패브릭/소품",
-    image: "./card_wallet.jpg",
+    image: "./card_wallet_v2.png",
     description: "산뜻한 민트블루 바탕에 화사한 잔꽃무늬가 프린트된 핸드메이드 카드지갑입니다. 둥글게 굴린 덮개와 깔끔한 스냅 단추로 포인트를 주었으며, 카드와 명함, 소액 지폐를 콤팩트하게 수납하기 좋습니다.",
     comment: "🐾 꽃이 만발한 루디의 봄날 숲속정원을 닮은 카드지갑이야! 매일 지갑을 꺼낼 때마다 화사한 기분이 들 거야."
   },
